@@ -1,5 +1,5 @@
 db:
-  image: postgres
+  image: postgres:9.4.4 #same version as heroku pg:info
   ports:
     - "5432:5432"
   environment:
