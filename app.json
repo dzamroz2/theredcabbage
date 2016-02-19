@@ -30,11 +30,12 @@
     "RAILS_ENV": {
       "required": true
     },
-    "RAILS_SERVE_STATIC_FILES": {
-      "required": true
-    },
     "SECRET_KEY_BASE": {
       "required": true
+    },
+    "ASSET_HOST": {
+      "required": true,
+      "default": "/"
     }
   },
   "addons": [
