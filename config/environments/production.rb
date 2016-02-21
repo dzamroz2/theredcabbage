@@ -33,7 +33,7 @@ Rails.application.configure do
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   config.action_controller.asset_host = ENV['ASSET_HOST']
-  config.public_file_server.headers = %w{public max-age=31536000}
+  config.public_file_server.headers = %w(public max-age=31536000)
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
@@ -51,7 +51,7 @@ Rails.application.configure do
   config.log_level = :debug
 
   # Prepend all log lines with the following tags.
-  config.log_tags = [ :request_id ]
+  config.log_tags = [:request_id]
 
   # Use a different logger for distributed setups.
   # require 'syslog/logger'

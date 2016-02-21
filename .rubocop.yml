@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 2.2
+  Exclude:
+    - 'bin/**/*'
+    - 'db/schema.rb'
+
+Metrics/LineLength:
+  Max: 130
+
+Style/Documentation:
+  Enabled: false
