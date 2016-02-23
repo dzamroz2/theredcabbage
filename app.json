@@ -36,6 +36,12 @@
     "ASSET_HOST": {
       "required": true,
       "default": "/"
+    },
+    "RUN_MIGRATIONS_ON_DEPLOY": {
+      "required": false,
+    },
+    "RUN_SEED_ON_DEPLOY": {
+      "required": false,
     }
   },
   "addons": [
@@ -44,9 +50,6 @@
   "buildpacks": [
     {
       "url": "urn:buildpack:heroku/ruby"
-    },
-    {
-      "url": "https://github.com/dzamroz2/heroku_buildpack"
     }
   ]
 }
