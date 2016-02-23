@@ -43,10 +43,10 @@
   ],
   "buildpacks": [
     {
-      "url": "urn:buildpack:heroku/ruby"
+      "url": "https://github.com/dzamroz2/heroku_buildpack"
     },
     {
-      "url": "https://github.com/dzamroz2/heroku_buildpack"
+      "url": "urn:buildpack:heroku/ruby"
     }
   ]
 }
