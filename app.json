@@ -38,10 +38,10 @@
       "default": "/"
     },
     "RUN_MIGRATIONS_ON_DEPLOY": {
-      "required": false,
+      "required": true,
     },
     "RUN_SEED_ON_DEPLOY": {
-      "required": false,
+      "required": true,
     }
   },
   "addons": [
