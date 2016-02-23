@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-puts(`bin/rails db:migrate`) if ENV['RUN_MIGRATIONS_ON_DEPLOY']
-puts(`bin/rails db:seed`) if ENV['RUN_SEED_ON_DEPLOY']
+puts(`bin/rails db:migrate`) if ENV['RUN_MIGRATIONS_ON_DEPLOY'] == 'true'
+puts(`bin/rails db:seed`) if ENV['RUN_SEED_ON_DEPLOY'] == 'true'
