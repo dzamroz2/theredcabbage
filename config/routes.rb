@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  root 'front_pages#index'
+  devise_for :users
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'front_pages#index'
+  resource :user, only: :show
 
   # Serve websocket cable requests in-process
   # mount ActionCable.server => '/cable'
