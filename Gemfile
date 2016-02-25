@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.0'
 # Action Cable dependencies for the Redis adapter
 gem 'redis', '~> 3.0'
 
+gem 'devise', github: 'plataformatec/devise'
+
 group :development, :test do
   gem 'byebug'
 end
