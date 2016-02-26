@@ -14,6 +14,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'redis', '~> 3.0'
 
 gem 'devise', github: 'plataformatec/devise'
+gem 'stripe', '~> 1.36.0'
 
 group :development, :test do
   gem 'byebug'
